@@ -1,0 +1,225 @@
+/*!
+Free Bootstrap Themes : https://www.zerotheme.com
+ */
+
+/* Bootstrap overrides */
+.container-fluid {
+    padding-right: 0; padding-left: 0;
+}
+.navbar-inverse {
+/*    background-color: #182948;*/
+    /*background-color: rgb(48,51,109);*/
+    background-color: rgb(23,44,107)
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: rgba(200,200,200,0.8);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.navbar-brand {
+    padding-top: 0;
+    padding-left: 5px;
+}
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------Html-Body------------------------------- */
+/* ---------------------------------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+html, body {width:100%; padding:0; margin:0;}
+body {
+    font-size: 16px;
+    font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+html { -webkit-text-size-adjust: none;}
+.video embed,.video object,.video iframe { width: 100%;  height: auto;}
+img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
+
+a{color: #337AC6;text-decoration: none;}
+a:hover {opacity: 0.9; text-decoration: none;}
+
+h1 {font-size: 3rem;}
+h2 {font-size: 2rem;}
+h3 {font-size: 1.5rem;}
+h4 {font-size: 1.2rem;}
+h5 {font-size: 20px;}
+
+p{margin-bottom: 20px;}
+
+.clear{content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:after, .clearfix:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
+
+hr {border: 1px solid #eee;margin-top: 30px;}
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Header--------------------------------- */
+/* ---------------------------------------------------------------------------- */
+header {
+    margin: 0 auto 0 auto;
+    background: #ddd;
+    padding: 70px 40px 60px 40px;
+    border-radius: 0;-webkit-border-radius: 0px;-moz-border-radius: 0px;-khtml-border-radius: 0px;
+    background-image: url(../images/bay-bridge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 0px 0px 4px #000;
+    /*text-shadow: -1px -1px 3px #000;*/
+    min-height: 244px; /* might need to change this for mobile */
+    max-width: 1920px;
+
+}
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+header  .intro {
+    font-size: 20px;font-weight: bold;margin-bottom: 20px;
+    color: rgba(255,255,255,0.9);
+}
+.header-outer.main { background-color: rgb(17,34,67); }
+.header-outer.main header { max-width: 2100px; }
+
+.header-outer.licensing { background-color: rgb(200,194,190); }
+.header-outer.licensing header { max-width: 1200px; }
+
+.header-outer.background { background-color: rgb(105,116,112); }
+.header-outer.background header { max-width: 2000px; }
+
+.header-outer.negotiatingSkills{ background-color: rgb(4,5,10); }
+
+.header-outer.publications{ background-color: rgb(50,91,108); }
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Content-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+#page-content {margin-bottom: 50px;}
+#page-content .heading {margin-bottom: 30px;}
+#page-content .heading h2 {font-size: 28px;}
+#page-content .content {
+    padding-top: 4vh;
+}
+#page-content .box-item {
+    text-align: center;
+    padding: 0;
+    /*border: 1px solid #aaa; */
+    background-color: #f3f3f3;
+    margin-bottom: 10px;
+    /*box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);*/
+}
+#page-content .box-item.background { background-color: #f3f3f7; }
+#page-content .box-item.publications { background-color: rgba(181,117,73,0.1); }
+#page-content .box-item.negotiating { background-color: rgba(104,131,47,0.1); }
+
+
+#page-content .box-item img {margin-bottom: 10px;}
+#page-content .box-item h3 {
+    margin: 0.5rem 1.5rem 0.8rem 1.5rem;
+}
+#page-content .box-item p {
+    margin: 0.5rem 1.5rem;
+}
+#page-content .box-item .cta {
+    margin: 1rem 1rem 1.5rem 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    background-color: rgba(23,37,63,0.8);
+    border: none;
+}
+
+#page-content .pitch-text {
+    /*background: #444; color: #f3f3f3;*/
+    background: #e3e3e3;
+    color: #666;
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 5vh 5vw 3vh 5vw;
+    border-top: 1px solid #333;
+}
+
+
+#page-content .publications-list li {
+    list-style: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    /*border: 1px solid #ccc;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);*/
+}
+#page-content .publications-list li .title {
+    font-weight: bolder;
+    display: block;
+}
+#page-content .publications-list li .citation {
+    display: block;
+    color: #aaa;
+}
+#page-content .publications-list li .blurb {
+    color: #888;
+    margin: 0.5rem 1rem 0 1rem;
+}
+
+#page-content .event-photos img {
+    margin-bottom: 1rem;
+}
+#page-content figcaption {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 0.25rem;
+}
+
+#page-content .block-quote {
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+#page-content .block-quote p {
+    margin-bottom: 0.4rem;
+}
+#page-content .block-quote .attribution {
+    margin-right: 10vw;
+    text-align: right;
+    font-size: 1.2rem;
+}
+#litigationExprienceTables td {
+    vertical-align: middle;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Footer--------------------------------- */
+/* ---------------------------------------------------------------------------- */
+footer {
+    /* color: #aaa; */
+    color: #FFFFFF;
+    font-size: 1rem;
+    /* background-color: #f3f3f3; */
+    background-color: #C8C8C8;
+    /* background-color: #919191; */  /* Logo Color */
+
+}
+footer .wrap-footer {padding-bottom: 50px;}
+footer .contact img.logo {
+    width: 80px;
+    height: 80px;
+    opacity: 0.9;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+footer .contact .name {
+    padding-top: 1.5rem;
+}
+footer .copyright {
+    clear: both;
+}
