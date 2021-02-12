@@ -45,7 +45,7 @@ html { -webkit-text-size-adjust: none;}
 .video embed,.video object,.video iframe { width: 100%;  height: auto;}
 img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 
-a{color: #337AC6;text-decoration: none;}
+a{/*color: #337AC6;*/text-decoration: none;}
 a:hover {opacity: 0.9; text-decoration: none;}
 
 h1 {font-size: 3rem;}
