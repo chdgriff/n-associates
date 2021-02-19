@@ -48,7 +48,7 @@ img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 a{/*color: #337AC6;*/text-decoration: none;}
 a:hover {opacity: 0.9; text-decoration: none;}
 
-h1 {font-size: 3rem;}
+h1 {font-size: 3.5rem;}
 h2 {font-size: 2rem;}
 h3 {font-size: 1.5rem;}
 h4 {font-size: 1.2rem;}
@@ -67,6 +67,8 @@ header {
     margin: 0 auto 0 auto;
     background: #ddd;
     padding: 70px 40px 60px 40px;
+    /* padding-left: 70px;
+    padding-top: 100px; */
     border-radius: 0;-webkit-border-radius: 0px;-moz-border-radius: 0px;-khtml-border-radius: 0px;
     background-image: url(../images/bay-bridge.jpg);
     background-size: cover;
@@ -74,32 +76,36 @@ header {
     color: white;
     text-shadow: 0px 0px 4px #000;
     /*text-shadow: -1px -1px 3px #000;*/
-    min-height: 244px; /* might need to change this for mobile */
-    max-width: 1920px;
+    min-height: 300px; /* might need to change this for mobile */
+    max-width: 2100px;
 
 }
+/* header .row {
+    display: inline-block;
+    vertical-align: middle;
+} */
 header h1 {
-    font-size: 3rem;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
+
 header  .intro {
-    font-size: 20px;font-weight: bold;margin-bottom: 20px;
+    font-size: 20px;font-weight: bold;/*margin-bottom: 20px;*/
     color: rgba(255,255,255,0.9);
 }
-.header-outer.main { background-color: rgb(17,34,67); }
-.header-outer.main header { max-width: 2100px; }
+.header-outer.main { background-color: rgb(17,34,67);}
+/* .header-outer.main header { padding: 90px 40px 60px 40px; } */
 
 .header-outer.licensing { background-color: rgb(200,194,190); }
-.header-outer.licensing header { max-width: 1200px; }
+.header-outer.licensing header { background-position: 20% 20%;}
 
 .header-outer.background { background-color: rgb(105,116,112); }
-.header-outer.background header { max-width: 2000px; }
+/* .header-outer.background header { max-width: 2000px; } */
 
 .header-outer.negotiatingSkills{ background-color: rgb(4,5,10); }
 
 .header-outer.publications{ background-color: rgb(195, 150, 109);}
 .header-outer.publications header { /*max-width: 1800px;*/
-                                    background-position: 0 45%;}
+                                    background-position: 0 40%;}
 
 .header-outer.conferences{ background-color: rgb(10, 13, 46);}
 .header-outer.conferences header { max-width: 1200px;
