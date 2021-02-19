@@ -100,9 +100,12 @@ header  .intro {
 .header-outer.publications{ background-color: rgb(50,91,108); }
 
 .header-outer.conferences{ background-color: rgb(10, 13, 46);}
-
 .header-outer.conferences header { max-width: 1200px;
                                   background-position: 0 30%;}
+
+.header-outer.litigations{ background-color: rgb(66, 92, 115);}
+.header-outer.litigations header { /*max-width: 1200px;*/
+                                  background-position: 0 50%;}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Content-------------------------------- */
