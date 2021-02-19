@@ -30,11 +30,11 @@ Free Bootstrap Themes : https://www.zerotheme.com
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
 html {
-    font-size: 14px;
+    font-size: 16px;
 }
 html, body {width:100%; padding:0; margin:0;}
 body {
-    font-size: 16px;
+    font-size: 18px;
     font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
 }
 
@@ -48,7 +48,7 @@ img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 a{/*color: #337AC6;*/text-decoration: none;}
 a:hover {opacity: 0.9; text-decoration: none;}
 
-h1 {font-size: 3.5rem;}
+h1 {font-size: 3rem;}
 h2 {font-size: 2rem;}
 h3 {font-size: 1.5rem;}
 h4 {font-size: 1.2rem;}
@@ -89,7 +89,7 @@ header h1 {
 }
 
 header  .intro {
-    font-size: 20px;font-weight: bold;/*margin-bottom: 20px;*/
+    font-size: 1.5rem;font-weight: bold;/*margin-bottom: 20px;*/
     color: rgba(255,255,255,0.9);
 }
 .header-outer.main { background-color: rgb(17,34,67);}
@@ -214,6 +214,11 @@ header  .intro {
 }
 #litigationExprienceTables td {
     vertical-align: middle;
+}
+
+#page-content .subtext {
+  display: block;
+  color: #aaa;
 }
 
 /* ---------------------------------------------------------------------------- */
