@@ -98,6 +98,12 @@ header  .intro {
 .header-outer.negotiatingSkills{ background-color: rgb(4,5,10); }
 
 .header-outer.publications{ background-color: rgb(50,91,108); }
+
+.header-outer.conferences{ background-color: rgb(10, 13, 46);}
+
+.header-outer.conferences header { max-width: 1200px;
+                                  background-position: 0 30%;}
+
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Content-------------------------------- */
 /* ---------------------------------------------------------------------------- */
